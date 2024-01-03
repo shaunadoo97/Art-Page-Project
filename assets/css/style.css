@@ -98,6 +98,7 @@ main {
     margin-top: 47px;
 }
 
+
 /* Hero Selection*/
 #hero {
     height:600px;
@@ -172,6 +173,32 @@ main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+    /*Hero*/
+   #cover-text {
+    width: 300px;
+    right: 50px;
+  }
+#reasons {
+    width:90%;
+    margin: 20px auto
+    
+}
+
+#reasons h2 {
+    margin: bottom 20px;
+    text-align:center;
+    font-size: 280%;
+}
+
+#benefits-physical {
+    line-height: 20px;
+    margin-bottom:20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
