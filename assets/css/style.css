@@ -98,6 +98,8 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -210,6 +212,24 @@ main {
     line-height:0;
 }
 
+/*For the Form page*/
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-position: 75%;
+    padding: 20px 10px 0px 10px;
+    flex-grow:1;
+}
+
+#signup-form {
+    color:#ffffff;
+    background-color: rgba(60, 60, 60, .6);
+    padding:30px;
+}
+
+#sign-up h2 {
+    color: #ffffff
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -223,7 +243,13 @@ main {
     font-size:160%;
     padding: 5%;
     color:#3a3a3a;
+
+
 }
+
+
+
+
 
 /* Media query: large pr landscape phones(576px and up) */
 @media screen and (min-width: 576px) {
